@@ -1,0 +1,26 @@
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.transparent-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+
+.transparent-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+}
+
+.transparent-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+
+.transparent-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.transparent-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
